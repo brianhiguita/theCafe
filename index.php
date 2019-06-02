@@ -73,20 +73,7 @@
     </div>
   </div>
 
-<!-- 
-  <div class="row booking__wrapper">
-    <div class="col s12">
-
-      <ul class="lastmin__bookings">
-        <li> <div class=""><p>Monday</p><p>10am-11am</p></div> </li>
-        <li> <div class=""><p>Tuesday</p><p>12pm-11pm</p></div> </li>
-        <li> <div class=""><p>Wednesday</p><p>9am-10am</p></div> </li>
-        <li> <div class=""><p>Thursday</p><p>11am-12pm</p></div> </li>
-        <li> <div class=""><p>Friday</p><p>9am-10am</p></div> </li>
-      </ul>
-
-    </div>
-  </div> -->
+  </div>
   <div class="lastmin__buttons">
     <a class="btn home__book" href="book.php">View All Available Bookings</a>
   </div>

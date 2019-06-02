@@ -250,7 +250,7 @@ hr {
 
 
 
-/* **************** Login modal ***************** */
+/* **************** modal ***************** */
 
 .modal {
   width: 40%;
@@ -278,8 +278,6 @@ hr {
 .modal__buttons:hover {
  background-color: #4db6ac;
 }
-
-/* **************** Register modal ***************** */
 
 
 
