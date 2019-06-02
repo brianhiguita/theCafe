@@ -1,0 +1,413 @@
+.nav__wrapper {
+  background-color: #000000ba;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav__wrapper--none {
+  background-color: #000000ba;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  background-color: #232323;
+}
+
+
+
+/* **************** Home Page ***************** */
+
+caption {
+  margin-top: 0px;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+td {
+  padding: 50px 15px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+nav {
+  background-color: unset;
+  box-shadow: unset;
+}
+
+.nav--right {
+  margin-right: 15px;
+  color: #eaeaea;
+}
+
+.nav--right a {
+  color: #eaeaea;
+}
+
+.main__image {
+  /* background-image: url("../assets/background_image.png"); */
+  background-image: url("https://images.unsplash.com/1/work-stations-plus-espresso.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80")
+
+}
+
+.main__image--size {
+  height: 60vh;
+  background-size: cover;
+}
+
+.main__content {
+  top: 20vh;
+  position: relative;
+  color: #eaeaea;
+  width: 100%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.text__wrapper{
+  background-color: #000000bd;
+  width: fit-content;  
+  padding: 35px;
+  border-radius: 5px;
+}
+.box h1 {
+  margin: 0px;
+}
+
+
+
+.box {
+  position: relative;
+  display: block;
+  width: auto;
+  text-align: center;
+}
+.btn-small {
+  border: solid 1px #eaeaea;
+  border-radius: 10px;
+  background-color: unset;
+  height: unset;
+  padding: 5px 20px;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+/* OUR SERVICES */
+
+.header__title {
+  margin-top: 50px;
+
+}
+.header__title h2 {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.services {
+  text-align: center;
+}
+.service__icons {
+  margin: 30px 0px 20px 0px;
+  font-size: 50px;
+}
+
+.service__header {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.service__text {
+  padding: 0px 30px;
+}
+
+/* Divider */
+
+hr {
+  width: 15%;
+  margin-top: 80px;
+}
+
+/* Book A Meeting Room */
+
+.book__date--title {
+  text-align: center;
+}
+
+
+.booking__text {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 0 50px;
+  text-align: center;
+}
+
+.headerH5 {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+
+.lastmin__bookings {
+  display: -webkit-inline-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.lastmin__bookings li {
+  width: 15%;
+  margin: 0 2%;
+}
+
+.lastmin__bookings div {
+  width: 100%;
+  background-color: #e2e2e2;
+  border-radius: 5px;
+  border: 1px solid black;
+  text-align: center;
+}
+.lastmin__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.lastmin__buttons button {
+  background-color: #adadad;
+  border-radius: 15px;
+  margin: 0 20px;
+  border: solid 1px black;
+  color: white;
+  width: 200px;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+
+/* **************** Booking Page ***************** */
+
+.select_time {
+  color: blue;
+}
+
+.bookings {
+  
+  border: solid 3px #424141;
+  border-radius: 5px;
+  height: 60px;
+  margin: 15px 0px;
+  background-color: #676767;
+  width: 70%;
+  display: block;
+}
+
+.bookings:focus {
+  background-color: #0000004a!important;
+  /* color: white; */
+}
+
+
+.red__button {
+  display: none;
+}
+
+.green__button p {
+  color: white;
+  font-weight: 600;
+}
+
+.booking__login {
+  padding: 0px 11.25px;
+}
+
+
+
+
+/* **************** Login modal ***************** */
+
+.modal {
+  width: 40%;
+  background-color: #2d2d2d;
+  padding: 25px 60px 40px 60px;
+  margin-top: 10%;
+}
+
+.modal__wrapper {
+  background-color: #2d2d2d;
+  padding: 50px 10px;
+}
+
+.modal__buttons {
+  border: solid 1px white;
+  color: white;
+  border-radius: 10px;
+  background-color: unset;
+  height: unset;
+  padding: 8px 35px;
+  font-size: 1rem;
+  margin-top: 40px;
+}
+
+.modal__buttons:hover {
+ background-color: #4db6ac;
+}
+
+/* **************** Register modal ***************** */
+
+
+
+
+/* **************** Myaccount Page ***************** */
+
+
+.account__booking--wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.account__booking {
+  border-radius: 5px;
+  border: solid 2px #1d1d1d;
+  background-color: #7d7d7d;
+  color: white;
+  width: 60%;
+}
+
+.account__booking p {
+  padding: 0px 10px;
+}
+
+.account__header--title {
+  margin: 20px 0px;
+  width: 100%;
+}
+
+.account__header {
+  text-align: center;
+
+}
+
+
+
+/* **************** Auth Page ***************** */
+
+.auth__content {
+  display: flex;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth__position {
+  /* background-color: #444444; */
+  padding: 150px 100px;
+  max-width: 40%;
+  border-radius: 10px;
+}
+
+
+.auth__error {
+  color :#d24040;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+.error__message {
+  color :#d24040;
+  font-weight: 600;
+}
+
+
+/* Footer */
+
+.footer__other{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #444444;
+  padding:50px 0px;
+}
+
+.footer__main {
+  margin-top: 50px;
+  background-color: #444444;
+  padding:50px 0px;
+}
+
+.footer__links ul li {
+  color: #e2e2e2;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 5px 0px;
+}
+
+.footer__follow {
+  color: #e2e2e2;
+}
+
+.footer__header h5 {
+  font-size: 1.2rem;
+  color: #e2e2e2;
+}
+
+.footer__contact {
+  margin-top: 50px;
+
+}
+
+.footer__social {
+  font-size: 22px;
+  margin: 5px;
+}
+
+.footer__social--left {
+  margin-left: 0px;
+}
+
+.footer__address {
+  font-size: 0.8rem;
+}
+
+.footer__news {
+  padding-top: 130px;
+}
+
+.footer__email {
+  margin-top: 20px !important;
+  color: #e2e2e2;
+}
+
+.footer__submit {
+  background-color: unset;
+  border: 1px solid #e2e2e2;
+  color: #e2e2e2;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-top: 10px;
+  float: right;
+}
