@@ -158,7 +158,7 @@
     <?php 
     
     if (isset($_SESSION['user'])) {
-      echo "user exists";
+      
     ?>
 
     <div class="col s12">
@@ -166,7 +166,8 @@
         <input id="timeValue" type="hidden" name="time" value="" required>
         <input id="dateValue" type="hidden" name="date" value="" required>
         <input id="dateValue" type="hidden" name="user" value="<?php echo $_SESSION['user']; ?>" required>
-        <input type="submit" name="registerBooking" value="submit">
+        <input type="submit" class="btn" name="registerBooking" value="Book Selected">
+      
       </form>
     </div>
     

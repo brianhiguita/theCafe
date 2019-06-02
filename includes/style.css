@@ -1,3 +1,7 @@
+form input {
+  color: white;
+}
+
 .nav__wrapper {
   background-color: #000000ba;
   position: fixed;
